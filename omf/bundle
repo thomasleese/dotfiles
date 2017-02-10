@@ -1,0 +1,5 @@
+package brew
+package osx
+package python
+theme default
+theme pure
