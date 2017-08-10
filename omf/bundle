@@ -1,6 +1,5 @@
 package brew
 package osx
 package python
-package rbenv
 theme default
 theme pure
