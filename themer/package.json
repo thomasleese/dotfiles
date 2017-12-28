@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "build": "themer -c themer-colors-solarized -t themer-atom-syntax -t themer-terminal -t themer-xcode -t themer-slack -t themer-wallpaper-block-wave -o gen"
+    },
+    "dependencies": {
+        "themer": "^2.2.3",
+        "themer-atom-syntax": "^1.0.3",
+        "themer-colors-solarized": "^1.0.0",
+        "themer-slack": "^1.0.5",
+        "themer-terminal": "^1.0.4",
+        "themer-wallpaper-block-wave": "^2.0.1",
+        "themer-xcode": "^2.0.1"
+    }
+}
