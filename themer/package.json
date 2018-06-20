@@ -4,9 +4,10 @@
     },
     "dependencies": {
         "themer": "^2.2.4",
+        "themer-atom-syntax": "^1.0.5",
+        "themer-atom-ui": "^1.0.2",
         "themer-colors-solarized": "^1.0.0",
         "themer-terminal": "^1.0.5",
-        "themer-atom-syntax": "^1.0.5",
         "themer-xcode": "^2.0.2"
     }
 }
