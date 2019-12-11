@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 
 cask "atom"
+cask "brooklyn"
 cask "java"
 cask "sketch"
 cask "slack"
