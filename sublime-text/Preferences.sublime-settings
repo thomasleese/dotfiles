@@ -1,9 +1,11 @@
 {
-	"color_scheme": "Packages/User/Solarized.tmTheme",
-	"font_face": "Menlo",
-	"font_size": 14,
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"theme": "Adaptive.sublime-theme",
-	"translate_tabs_to_spaces": true
+    "color_scheme": "Packages/User/themer-sublime-text-light.tmTheme",
+    "font_face": "Menlo",
+    "font_size": 14,
+    "line_padding_bottom": 3,
+    "line_padding_top": 3,
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "ensure_newline_at_eof_on_save": true,
+    "trim_trailing_white_space_on_save": true,
 }
