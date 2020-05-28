@@ -1,11 +1,12 @@
 {
     "scripts": {
-        "build": "themer -c themer-colors-solarized -t themer-terminal -t themer-xcode -o gen"
+        "build": "themer -c @themer/colors-solarized -t @themer/sublime-text -t @themer/terminal -t @themer/xcode -o gen"
     },
     "dependencies": {
         "themer": "^3.1.6",
-        "themer-colors-solarized": "^1.0.3",
-        "themer-terminal": "^2.0.3",
-        "themer-xcode": "^2.0.5"
+        "@themer/colors-solarized": "^1.0.3",
+        "@themer/sublime-text": "^2.1.0",
+        "@themer/terminal": "^2.1.0",
+        "@themer/xcode": "^2.1.0"
     }
 }
