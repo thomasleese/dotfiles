@@ -1,1 +1,1 @@
-set -gx PATH ~/govuk/govuk-docker/bin $PATH
+set -gx PATH ~/govuk/govuk-docker/exe $PATH
