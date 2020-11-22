@@ -1,6 +1,7 @@
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/bundle"
+tap "heroku/brew"
 
 cask "atom"
 cask "java"
@@ -8,7 +9,7 @@ cask "sketch"
 cask "slack"
 cask "vlc"
 
-brew "doctl"
+brew "heroku"
 brew "fish"
 brew "git"
 brew "git-lfs"
