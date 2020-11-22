@@ -2,13 +2,13 @@ tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/bundle"
 
-cask "atom
-cask "brooklyn"
+cask "atom"
 cask "java"
 cask "sketch"
 cask "slack"
 cask "vlc"
 
+brew "doctl"
 brew "fish"
 brew "git"
 brew "git-lfs"
