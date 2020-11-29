@@ -3,7 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "heroku/brew"
 
-cask "nova"
+cask "atom"
 cask "java"
 cask "sketch"
 cask "slack"
