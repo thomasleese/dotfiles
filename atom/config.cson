@@ -1,5 +1,8 @@
 "*":
   core:
+    disabledPackages: [
+      "language-python"
+    ]
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
@@ -11,10 +14,14 @@
     preferredLineLength: 88
     scrollPastEnd: true
   "exception-reporting":
-    userId: "0946e240-6351-4572-9f03-df1c9cdd8c78"
+    userId: "3b5c6ab2-03b5-41ee-808d-e04fd19378b9"
   "linter-rubocop":
     command: "/Users/thomasleese/.rbenv/shims/rubocop"
     useBundler: true
+  "linter-flake8":
+    maxLineLength: 119
+  "linter-ui-default":
+    showPanel: true
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
