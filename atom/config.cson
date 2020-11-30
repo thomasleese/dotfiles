@@ -1,0 +1,33 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontFamily: "SF Mono, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 16
+    preferredLineLength: 88
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "0946e240-6351-4572-9f03-df1c9cdd8c78"
+  "linter-rubocop":
+    command: "/Users/thomasleese/.rbenv/shims/rubocop"
+    useBundler: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".c.source":
+  editor:
+    tabLength: 4
+".cpp.source":
+  editor:
+    tabLength: 4
+".java.source":
+  editor:
+    tabLength: 4
+".kotlin.source":
+  editor:
+    tabLength: 4
