@@ -15,18 +15,24 @@
     scrollPastEnd: true
   "exception-reporting":
     userId: "3b5c6ab2-03b5-41ee-808d-e04fd19378b9"
+  "linter-flake8":
+    maxLineLength: 119
   "linter-rubocop":
     command: "/Users/thomasleese/.rbenv/shims/rubocop"
     useBundler: true
-  "linter-flake8":
-    maxLineLength: 119
   "linter-ui-default":
     showPanel: true
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+".c.cmake.source.template":
+  editor:
+    tabLength: 4
 ".c.source":
+  editor:
+    tabLength: 4
+".cmake.cpp.source.template":
   editor:
     tabLength: 4
 ".cpp.source":
