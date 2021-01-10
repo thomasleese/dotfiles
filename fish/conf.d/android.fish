@@ -1,1 +1,1 @@
-set -gx ANDROID_SDK_ROOT /usr/local/share/android-sdk
+set -gx ANDROID_SDK_ROOT ~/Library/Android/sdk
