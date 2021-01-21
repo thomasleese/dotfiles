@@ -1,9 +1,11 @@
 "*":
   core:
+    autoHideMenuBar: true
     disabledPackages: [
       "language-python"
     ]
-    telemetryConsent: "limited"
+    projectHome: "/home/thomasleese/Developer"
+    telemetryConsent: "no"
     themes: [
       "one-light-ui"
       "one-light-syntax"
