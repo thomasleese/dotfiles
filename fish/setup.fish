@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/usr/bin/env fish
 
 # Download the installer to `/tmp`
 curl git.io/pure-fish --output /tmp/pure_installer.fish --location --silent
