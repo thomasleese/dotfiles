@@ -5,3 +5,5 @@
 	email = thomas@leese.io
 [pull]
 	ff = only
+[core]
+	excludesfile = /Users/thomasleese/Developer/dotfiles/gitignore
