@@ -1,0 +1,7 @@
+[credential "https://github.com"]
+	helper = !gh auth git-credential
+[user]
+	name = Thomas Leese
+	email = thomas@leese.io
+[pull]
+	ff = only
