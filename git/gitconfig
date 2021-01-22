@@ -6,4 +6,4 @@
 [pull]
 	ff = only
 [core]
-	excludesfile = /Users/thomasleese/Developer/dotfiles/gitignore
+	excludesfile = /Users/thomasleese/Developer/dotfiles/git/gitignore
