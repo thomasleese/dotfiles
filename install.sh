@@ -25,3 +25,5 @@ rm -r ~/.atom
 mkdir -p ~/.atom
 ln -s $(pwd)/config.cson ~/.atom/config.cson
 popd
+
+./poetry/setup.sh
