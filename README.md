@@ -12,11 +12,3 @@ $ gh repo clone dotfiles
 $ cd dotfiles
 $ ./install.sh
 ```
-
-## Symlinks
-
-```
-~/.config/fish/conf.d -> fish/conf.d
-~/.gitignore_global -> git/gitignore
-~/.atom/config.cson -> atom/config.cson
-```
