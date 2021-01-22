@@ -3,11 +3,8 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "heroku/brew"
 
+cask "1password"
 cask "atom"
-cask "java"
-cask "sketch"
-cask "slack"
-cask "vlc"
 
 brew "heroku"
 brew "fish"
