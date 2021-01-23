@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "37a8583a7fafede53c280b65878ee8ed9af6b60f"
+        "revision": "d04ae80665dd34f35c166e7088690890fb28e03c"
       },
       "homebrew/cask": {
-        "revision": "114166ed5cf813c0434904221d2291f06ce12ac1"
+        "revision": "890cbc7ddf5829c68d3e3b13bf653f554509b302"
       },
       "homebrew/bundle": {
         "revision": "ccdee2544f1ad5ca4e6862cca0107422bf51be0d"
       },
       "heroku/brew": {
-        "revision": "05282b527b4cf61a62fd4dd2e260a68d392fcaaf"
+        "revision": "7461ceff48431bd7f8f09c7819d2aa7dd379dc5b"
       }
     },
     "cask": {
@@ -26,11 +26,17 @@
         "options": {
           "full_name": "atom"
         }
+      },
+      "imageoptim": {
+        "version": "1.8.8",
+        "options": {
+          "full_name": "imageoptim"
+        }
       }
     },
     "brew": {
       "heroku": {
-        "version": "7.47.10",
+        "version": "7.47.11",
         "bottle": false
       },
       "fish": {
@@ -331,9 +337,9 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "37a8583a7fafede53c280b65878ee8ed9af6b60f",
+        "Homebrew/homebrew-core": "d04ae80665dd34f35c166e7088690890fb28e03c",
         "CLT": "12.3.0.0.1.1607026830",
-        "Xcode": "12.0",
+        "Xcode": "12.3",
         "macOS": "11.1"
       }
     }

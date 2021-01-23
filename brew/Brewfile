@@ -5,6 +5,7 @@ tap "heroku/brew"
 
 cask "1password"
 cask "atom"
+cask "imageoptim"
 
 brew "heroku"
 brew "fish"
