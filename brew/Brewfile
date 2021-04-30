@@ -3,16 +3,12 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "heroku/brew"
 
-cask "1password"
-cask "atom"
-cask "imageoptim"
-cask "sketch"
-
 brew "heroku"
 brew "fish"
 brew "git"
 brew "git-lfs"
 brew "gh"
+brew "mas"
 brew "ncdu"
 brew "node"
 brew "postgresql"
@@ -20,3 +16,10 @@ brew "pyenv"
 brew "redis"
 brew "rbenv"
 brew "vim"
+
+cask "1password"
+cask "atom"
+cask "imageoptim"
+cask "sketch"
+
+mas "Trello", id: 1278508951
