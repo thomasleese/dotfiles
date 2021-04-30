@@ -15,7 +15,7 @@ popd
 
 # Fish
 pushd fish
-rm -r ~/.config/fish
+rm -rf ~/.config/fish
 mkdir -p ~/.config/fish
 ln -s $(pwd)/conf.d ~/.config/fish/conf.d
 fish setup.fish
@@ -25,7 +25,7 @@ popd
 
 # Atom
 pushd atom
-rm -r ~/.atom
+rm -rf ~/.atom
 mkdir -p ~/.atom
 ln -s $(pwd)/config.cson ~/.atom/config.cson
 popd
