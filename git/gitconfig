@@ -7,3 +7,5 @@
 	ff = only
 [core]
 	excludesfile = /Users/thomasleese/Developer/dotfiles/git/gitignore
+[fetch]
+	prune = true
