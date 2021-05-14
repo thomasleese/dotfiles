@@ -500,6 +500,10 @@
             }
           }
         }
+      },
+      "gradle": {
+        "version": "7.0.1",
+        "bottle": false
       }
     },
     "mas": {
