@@ -486,6 +486,20 @@
             }
           }
         }
+      },
+      "kotlin": {
+        "version": "1.5.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/kotlin/blobs/sha256:8424930ea8f67a252ebdef8cf091a33f3638fd658fdfcb2dffd32f5058a09d4d",
+              "sha256": "8424930ea8f67a252ebdef8cf091a33f3638fd658fdfcb2dffd32f5058a09d4d"
+            }
+          }
+        }
       }
     },
     "mas": {
