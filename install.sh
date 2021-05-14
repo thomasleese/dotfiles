@@ -23,5 +23,12 @@ echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
 sudo chsh -s /usr/local/bin/fish $USER
 popd
 
+# Sublime Text
+pushd sublime-text
+rm -rfv ~/Library/Application\ Support/Sublime\ Text/Packages/User
+mkdir -p ~/Library/Application\ Support/Sublime\ Text/Packages
+ln -s $(pwd)/sublime-text ~/Library/Application\ Support/Sublime\ Text/Packages/User
+popd
+
 # Poetry
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -
