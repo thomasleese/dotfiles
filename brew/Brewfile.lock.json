@@ -53,6 +53,12 @@
         "options": {
           "full_name": "logitech-options"
         }
+      },
+      "sublime-merge": {
+        "version": "2054",
+        "options": {
+          "full_name": "sublime-merge"
+        }
       }
     },
     "brew": {

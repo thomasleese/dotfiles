@@ -26,5 +26,6 @@ cask "gpg-suite"
 cask "imageoptim"
 cask "logitech-options"
 cask "sketch"
+cask "sublime-merge"
 
 mas "Trello", id: 1278508951
