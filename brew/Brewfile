@@ -1,5 +1,6 @@
 tap "homebrew/core"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/bundle"
 tap "heroku/brew"
 
@@ -23,6 +24,7 @@ cask "1password"
 cask "atom"
 cask "gpg-suite"
 cask "imageoptim"
+cask "logitech-options"
 cask "sketch"
 
 mas "Trello", id: 1278508951
