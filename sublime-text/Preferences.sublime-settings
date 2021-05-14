@@ -2,12 +2,12 @@
 // and are overridden in turn by syntax-specific settings.
 {
     "font_face": "SF Mono",
-	"font_size": 16,
+    "font_size": 16,
 
-	"rulers": [88],
+    "rulers": [88],
 
-	"translate_tabs_to_spaces": true,
+    "translate_tabs_to_spaces": true,
 
-    "line_padding_top": 1,
-    "line_padding_bottom": 1
+    "line_padding_top": 2,
+    "line_padding_bottom": 2
 }
