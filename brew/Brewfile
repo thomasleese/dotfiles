@@ -21,7 +21,6 @@ brew "rbenv"
 brew "vim"
 
 cask "1password"
-cask "atom"
 cask "gpg-suite"
 cask "imageoptim"
 cask "logitech-options"

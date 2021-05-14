@@ -23,12 +23,5 @@ echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
 sudo chsh -s /usr/local/bin/fish $USER
 popd
 
-# Atom
-pushd atom
-rm -rf ~/.atom
-mkdir -p ~/.atom
-ln -s $(pwd)/config.cson ~/.atom/config.cson
-popd
-
 # Poetry
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -
