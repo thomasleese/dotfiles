@@ -27,7 +27,14 @@ popd
 pushd sublime-text
 rm -rfv ~/Library/Application\ Support/Sublime\ Text/Packages/User
 mkdir -p ~/Library/Application\ Support/Sublime\ Text/Packages
-ln -s $(pwd)/sublime-text ~/Library/Application\ Support/Sublime\ Text/Packages/User
+ln -s $(pwd) ~/Library/Application\ Support/Sublime\ Text/Packages/User
+popd
+
+# Sublime Merge
+pushd sublime-merge
+rm -rfv ~/Library/Application\ Support/Sublime\ Merge/Packages/User
+mkdir -p ~/Library/Application\ Support/Sublime\ Merge/Packages
+ln -s $(pwd) ~/Library/Application\ Support/Sublime\ Merge/Packages/User
 popd
 
 # Poetry
