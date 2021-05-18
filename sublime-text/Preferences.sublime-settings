@@ -1,5 +1,5 @@
 {
-    "font_face": "SF Mono",
+    "font_face": "Fira Mono",
     "font_size": 16,
 
     "rulers": [88],
@@ -8,8 +8,8 @@
 
     "line_padding_top": 2,
     "line_padding_bottom": 2,
-    "ignored_packages":
-    [
+
+    "ignored_packages": [
 		"Vintage",
     ],
 }
