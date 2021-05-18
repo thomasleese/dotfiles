@@ -21,6 +21,7 @@ brew "postgresql"
 brew "pyenv"
 brew "redis"
 brew "rbenv"
+brew "starship"
 brew "vim"
 
 cask "1password"
