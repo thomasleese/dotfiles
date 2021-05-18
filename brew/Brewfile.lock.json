@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "4139bc3fd8a5ebc1d1f8401797ca251f133b633b"
+        "revision": "fd2e45832c59f35a4f781cc3356d98faa5c73b18"
       },
       "homebrew/cask": {
-        "revision": "18e6349f9a7193ce858ba38716aace1d46930f6e"
+        "revision": "2df5c6d76ac89ef69e50f53a2c63f9f777b772d3"
       },
       "homebrew/bundle": {
         "revision": "52c901580516725372222afbfadf04f51bddddbe"
@@ -55,13 +55,13 @@
         }
       },
       "sublime-merge": {
-        "version": "2054",
+        "version": "2056",
         "options": {
           "full_name": "sublime-merge"
         }
       },
       "slack": {
-        "version": "4.15.0",
+        "version": "4.16.2",
         "options": {
           "full_name": "slack"
         }
@@ -551,12 +551,12 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.1.2",
+        "HOMEBREW_VERSION": "3.1.7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "032c90e56b07d73c9be34dd2e6f1c1975547fc96",
-        "CLT": "12.4.0.0.1.1610135815",
-        "Xcode": "12.3",
-        "macOS": "11.2.3"
+        "Homebrew/homebrew-core": "fd2e45832c59f35a4f781cc3356d98faa5c73b18",
+        "CLT": "12.5.0.22.9",
+        "Xcode": "12.2",
+        "macOS": "11.3.1"
       },
       "catalina": {
         "HOMEBREW_VERSION": "3.1.7",
