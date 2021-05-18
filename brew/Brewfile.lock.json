@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "fd2e45832c59f35a4f781cc3356d98faa5c73b18"
+        "revision": "175fb3462212ec55ffe2aa86b890b9a59e982507"
       },
       "homebrew/cask": {
         "revision": "2df5c6d76ac89ef69e50f53a2c63f9f777b772d3"
@@ -14,7 +14,7 @@
         "revision": "1f5cfa89596d7272d5c86595004aac95a1f1ed84"
       },
       "homebrew/cask-drivers": {
-        "revision": "eb816658e943a67384f29b403048d4054ce7a397"
+        "revision": "826ae4d453951a69252d2b016f01f9e948f297d7"
       },
       "homebrew/cask-fonts": {
         "revision": "0a077de554c8d2ddc055f6c92012291105c0eb5e"
@@ -52,7 +52,7 @@
         }
       },
       "logitech-options": {
-        "version": "8.50.210",
+        "version": "8.54.147",
         "options": {
           "full_name": "logitech-options"
         }
@@ -79,6 +79,12 @@
         "version": "2.1.0",
         "options": {
           "full_name": "font-fira-mono-nerd-font"
+        }
+      },
+      "font-meslo-lg-nerd-font": {
+        "version": "2.1.0",
+        "options": {
+          "full_name": "font-meslo-lg-nerd-font"
         }
       }
     },
@@ -597,7 +603,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "fd2e45832c59f35a4f781cc3356d98faa5c73b18",
+        "Homebrew/homebrew-core": "175fb3462212ec55ffe2aa86b890b9a59e982507",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.2",
         "macOS": "11.3.1"
