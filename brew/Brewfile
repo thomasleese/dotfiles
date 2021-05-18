@@ -1,6 +1,7 @@
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
 tap "homebrew/bundle"
 tap "heroku/brew"
 
@@ -25,6 +26,8 @@ brew "starship"
 brew "vim"
 
 cask "1password"
+cask "font-fira-mono"
+cask "font-fira-mono-nerd-font"
 cask "gpg-suite"
 cask "imageoptim"
 cask "logitech-options"
