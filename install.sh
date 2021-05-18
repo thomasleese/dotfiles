@@ -17,8 +17,7 @@ popd
 pushd fish
 rm -rf ~/.config/fish
 mkdir -p ~/.config/fish
-ln -s $(pwd)/conf.d ~/.config/fish/conf.d
-fish setup.fish
+ln -s $(pwd) ~/.config/fish/conf.d
 echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
 sudo chsh -s /usr/local/bin/fish $USER
 popd
