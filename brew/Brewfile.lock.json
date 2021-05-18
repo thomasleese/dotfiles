@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "175fb3462212ec55ffe2aa86b890b9a59e982507"
+        "revision": "3f7fae8ad4e0382d01293bbc06bea4a1e38dcdb9"
       },
       "homebrew/cask": {
         "revision": "2df5c6d76ac89ef69e50f53a2c63f9f777b772d3"
@@ -85,6 +85,18 @@
         "version": "2.1.0",
         "options": {
           "full_name": "font-meslo-lg-nerd-font"
+        }
+      },
+      "font-hack-nerd-font": {
+        "version": "2.1.0",
+        "options": {
+          "full_name": "font-hack-nerd-font"
+        }
+      },
+      "font-hack": {
+        "version": "3.003",
+        "options": {
+          "full_name": "font-hack"
         }
       }
     },
@@ -603,7 +615,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "175fb3462212ec55ffe2aa86b890b9a59e982507",
+        "Homebrew/homebrew-core": "3f7fae8ad4e0382d01293bbc06bea4a1e38dcdb9",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.2",
         "macOS": "11.3.1"
