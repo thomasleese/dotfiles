@@ -34,5 +34,6 @@ cask "logitech-options"
 cask "sketch"
 cask "slack"
 cask "sublime-merge"
+cask "sublime-text"
 
 mas "Trello", id: 1278508951
