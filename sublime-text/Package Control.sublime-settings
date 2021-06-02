@@ -5,5 +5,6 @@
 	"installed_packages": [
 		"Kotlin",
 		"Package Control",
+		"Puppet",
 	],
 }
