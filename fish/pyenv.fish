@@ -1,3 +1,3 @@
 if type -q pyenv
-  source (pyenv init - | psub)
+  source (pyenv init --path | psub)
 end
