@@ -3,9 +3,14 @@
 [user]
 	name = Thomas Leese
 	email = thomas@leese.io
+	signingkey = 0E5BFE2D6783B237
 [pull]
 	ff = only
 [core]
 	excludesfile = /Users/thomasleese/Developer/dotfiles/git/gitignore
 [fetch]
 	prune = true
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
