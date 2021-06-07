@@ -35,4 +35,5 @@ cask "logitech-options"
 cask "sketch"
 cask "slack"
 
+mas "Magnet", id: 441258766
 mas "Trello", id: 1278508951
