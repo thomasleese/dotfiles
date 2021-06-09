@@ -3,6 +3,8 @@ tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/bundle"
+
+tap "adoptopenjdk/openjdk"
 tap "heroku/brew"
 
 brew "heroku"
@@ -26,6 +28,7 @@ brew "starship"
 brew "vim"
 
 cask "1password"
+cask "adoptopenjdk11"
 cask "font-hack"
 cask "font-hack-nerd-font"
 cask "gpg-suite"

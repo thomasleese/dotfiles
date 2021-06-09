@@ -2,22 +2,25 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "9d7d7d5b2b96a6e813d710f0234d0517e31f49ff"
+        "revision": "8991a990ede59cfdb5340e6e93dd49ec095bf7d8"
       },
       "homebrew/cask": {
-        "revision": "0788ffb1e6a0e225134e6d11c80a6f3c2720cc43"
+        "revision": "172c07e18f4289581571d3ef24a3bfb8b80af5d1"
       },
       "homebrew/bundle": {
-        "revision": "00d2c0a5f41515d643c31952f61433c1b5677faf"
+        "revision": "d8e61c1dbccee6cd0879832c7fcb32aa33922909"
       },
       "heroku/brew": {
-        "revision": "7efaaef5a2b3ea46573a978bd97c7a6036264c7f"
+        "revision": "f24db422272cb04e2da762bc08c7e20063306825"
       },
       "homebrew/cask-drivers": {
-        "revision": "66c544c307ae01f2bce163c15ac98e50244372fa"
+        "revision": "a190a24c58a127d4c805c3e79f7a488a9c954935"
       },
       "homebrew/cask-fonts": {
-        "revision": "af8502291c75cb4bd738bb3cd563898ccf4e627a"
+        "revision": "e83e862908f469f053eec7bb861a621446a894b6"
+      },
+      "adoptopenjdk/openjdk": {
+        "revision": "3e6ed3cb423ac9ce63aeb1e01d0371cd588db987"
       }
     },
     "cask": {
@@ -106,15 +109,21 @@
         }
       },
       "jetbrains-toolbox": {
-        "version": "1.20,1.20.8352",
+        "version": "1.20,1.20.8804",
         "options": {
           "full_name": "jetbrains-toolbox"
+        }
+      },
+      "adoptopenjdk11": {
+        "version": "11.0.11,9",
+        "options": {
+          "full_name": "adoptopenjdk11"
         }
       }
     },
     "brew": {
       "heroku": {
-        "version": "7.54.0",
+        "version": "7.54.1",
         "bottle": false
       },
       "fish": {
@@ -654,12 +663,12 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.1.9",
+        "HOMEBREW_VERSION": "3.1.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9d7d7d5b2b96a6e813d710f0234d0517e31f49ff",
+        "Homebrew/homebrew-core": "8991a990ede59cfdb5340e6e93dd49ec095bf7d8",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
-        "macOS": "11.3.1"
+        "macOS": "11.4"
       },
       "catalina": {
         "HOMEBREW_VERSION": "3.1.7",
