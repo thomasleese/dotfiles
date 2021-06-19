@@ -35,8 +35,10 @@ cask "gpg-suite"
 cask "imageoptim"
 cask "jetbrains-toolbox"
 cask "logitech-options"
+cask "sf-symbols"
 cask "sketch"
 cask "slack"
+cask "steam"
 
 mas "Magnet", id: 441258766
 mas "Trello", id: 1278508951
