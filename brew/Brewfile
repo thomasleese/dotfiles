@@ -25,6 +25,7 @@ brew "pyenv"
 brew "redis"
 brew "rbenv"
 brew "starship"
+brew "swift-format"
 brew "vim"
 
 cask "1password"
