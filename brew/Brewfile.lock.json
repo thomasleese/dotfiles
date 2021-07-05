@@ -131,6 +131,12 @@
         "options": {
           "full_name": "steam"
         }
+      },
+      "font-jetbrains-mono-nerd-font": {
+        "version": "2.1.0",
+        "options": {
+          "full_name": "font-jetbrains-mono-nerd-font"
+        }
       }
     },
     "brew": {
