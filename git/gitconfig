@@ -7,7 +7,7 @@
 [pull]
 	ff = only
 [core]
-	excludesfile = /Users/thomasleese/Developer/dotfiles/git/gitignore
+	excludesfile = ~/Developer/dotfiles/git/gitignore
 [fetch]
 	prune = true
 [commit]
