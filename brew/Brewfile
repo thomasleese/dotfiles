@@ -21,6 +21,7 @@ brew "postgresql"
 brew "redis"
 brew "starship"
 brew "vim"
+brew "ykman"
 
 cask "1password"
 cask "font-jetbrains-mono-nerd-font"
