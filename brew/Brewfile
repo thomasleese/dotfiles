@@ -15,7 +15,6 @@ brew "gh"
 brew "gnupg"
 brew "jq"
 brew "kubernetes-cli"
-brew "mas"
 brew "mysql"
 brew "ncdu"
 brew "postgresql"
@@ -32,5 +31,3 @@ cask "jetbrains-toolbox"
 cask "logitech-options"
 cask "sf-symbols"
 cask "sketch"
-
-mas "Magnet", id: 441258766
