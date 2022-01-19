@@ -23,14 +23,14 @@ sudo chsh -s /usr/local/bin/fish $USER
 popd
 
 # Poetry
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python3 -
+curl -sSL https://install.python-poetry.org | python3 -
 
 # Asdf
 pushd asdf
 ln -s $(pwd)/asdfrc ~/.asdfrc
-asdf plugin add python
-asdf plugin add ruby
-asdf plugin add nodejs
 asdf plugin add java
 asdf plugin add kotlin
+asdf plugin add nodejs
+asdf plugin add python
+asdf plugin add ruby
 popd

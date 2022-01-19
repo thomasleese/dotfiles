@@ -1,8 +1,8 @@
+tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
-tap "homebrew/bundle"
 
 tap "heroku/brew"
 
@@ -15,6 +15,7 @@ brew "gh"
 brew "gnupg"
 brew "jq"
 brew "kubernetes-cli"
+brew "mas"
 brew "mysql"
 brew "ncdu"
 brew "postgresql"
@@ -23,11 +24,20 @@ brew "starship"
 brew "vim"
 brew "ykman"
 
-cask "1password"
+cask "datagrip"
+cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "gpg-suite"
 cask "imageoptim"
-cask "jetbrains-toolbox"
 cask "logitech-options"
+cask "pycharm"
+cask "rubymine"
 cask "sf-symbols"
 cask "sketch"
+cask "vlc"
+cask "webstorm"
+
+mas "1Password", id: 1333542190
+mas "JSONPeep", id: 1458969831
+mas "Wipr", id: 1320666476
+mas "Xcode", id: 497799835
