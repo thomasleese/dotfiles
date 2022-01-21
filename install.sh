@@ -24,6 +24,8 @@ popd
 
 # Poetry
 curl -sSL https://install.python-poetry.org | python3 -
+mkdir -p ~/.config/fish/completions
+poetry completions fish > ~/.config/fish/completions/poetry.fish
 
 # Asdf
 pushd asdf
