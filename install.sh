@@ -23,9 +23,9 @@ sudo chsh -s /usr/local/bin/fish $USER
 popd
 
 # Poetry
-curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | /usr/bin/python3 -
 mkdir -p ~/.config/fish/completions
-poetry completions fish > ~/.config/fish/completions/poetry.fish
+$(/usr/bin/python3 -c 'import site; print(site.getuserbase())')/bin/poetry completions fish > ~/.config/fish/completions/poetry.fish
 
 # Asdf
 pushd asdf
