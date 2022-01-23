@@ -1,1 +1,1 @@
-set -gx PATH /usr/local/sbin $PATH
+fish_add_path /usr/local/sbin

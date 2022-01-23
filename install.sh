@@ -29,6 +29,7 @@ $(python3 -c 'import site; print(site.getuserbase())')/bin/poetry completions fi
 
 # Asdf
 pushd asdf
+rm -f ~/.asdfrc
 ln -s $(pwd)/asdfrc ~/.asdfrc
 asdf plugin add java
 asdf plugin add kotlin
