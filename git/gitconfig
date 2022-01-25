@@ -14,3 +14,7 @@
 	gpgsign = true
 [tag]
 	gpgsign = true
+[diff]
+	algorithm = histogram
+[merge]
+	conflictStyle = zdiff3
