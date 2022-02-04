@@ -15,7 +15,6 @@ brew "gh"
 brew "gnupg"
 brew "jq"
 brew "kubernetes-cli"
-brew "mas"
 brew "mysql"
 brew "ncdu"
 brew "poetry"
@@ -25,6 +24,7 @@ brew "starship"
 brew "vim"
 brew "ykman"
 
+cask "1password"
 cask "datagrip"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
@@ -37,8 +37,3 @@ cask "sf-symbols"
 cask "sketch"
 cask "vlc"
 cask "webstorm"
-
-mas "1Password", id: 1333542190
-mas "JSONPeep", id: 1458969831
-mas "Wipr", id: 1320666476
-mas "Xcode", id: 497799835
