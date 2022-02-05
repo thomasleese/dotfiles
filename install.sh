@@ -31,4 +31,5 @@ asdf plugin add kotlin
 asdf plugin add nodejs
 asdf plugin add python
 asdf plugin add ruby
+asdf plugin add terraform
 popd
