@@ -185,6 +185,18 @@
         "options": {
           "full_name": "goland"
         }
+      },
+      "nordpass": {
+        "version": "4.22.22",
+        "options": {
+          "full_name": "nordpass"
+        }
+      },
+      "nordvpn": {
+        "version": "7.5.0,186",
+        "options": {
+          "full_name": "nordvpn"
+        }
       }
     },
     "brew": {
