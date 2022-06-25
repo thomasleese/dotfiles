@@ -13,6 +13,13 @@ rm -f ~/.gitconfig
 ln -s $(pwd)/gitconfig ~/.gitconfig
 popd
 
+# GnuPG
+pushd gnupg
+mkdir -p ~/.gnupg
+rm -f ~/.gnupg/gpg.conf
+ln -s $(pwd)/gpg.conf ~/.gnuph/gpg.conf
+popd
+
 # Fish
 pushd fish
 rm -rf ~/.config/fish
