@@ -545,12 +545,6 @@
           "full_name": "1password"
         }
       },
-      "appcode": {
-        "version": "2022.3.2,223.8617.49",
-        "options": {
-          "full_name": "appcode"
-        }
-      },
       "cameracontroller": {
         "version": "1.4.0",
         "options": {
@@ -581,12 +575,6 @@
           "full_name": "font-jetbrains-mono-nerd-font"
         }
       },
-      "goland": {
-        "version": "2022.3.3,223.8836.34",
-        "options": {
-          "full_name": "goland"
-        }
-      },
       "imageoptim": {
         "version": "1.8.8",
         "options": {
@@ -615,12 +603,6 @@
         "version": "2022.3.3,223.8836.42",
         "options": {
           "full_name": "rubymine"
-        }
-      },
-      "sketch": {
-        "version": "95.3,160769",
-        "options": {
-          "full_name": "sketch"
         }
       },
       "slack": {
