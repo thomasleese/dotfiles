@@ -16,6 +16,7 @@
 	gpgsign = true
 [diff]
 	algorithm = histogram
+	external = difft
 [merge]
 	conflictStyle = zdiff3
 [filter "lfs"]
