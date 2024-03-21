@@ -4,6 +4,7 @@ tap "homebrew/cask-fonts"
 tap "heroku/brew"
 
 brew "asdf"
+brew "difftastic"
 brew "heroku"
 brew "fish"
 brew "git"
