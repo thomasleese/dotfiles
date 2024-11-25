@@ -3,7 +3,7 @@
 [user]
 	name = Thomas Leese
 	email = thomas@leese.io
-	signingkey = 0E5BFE2D6783B237
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMZ2XQ7+iJAoknKEba43mKLxn4Jb8c9QHEg2Ac5TjMSF
 [pull]
 	ff = only
 [core]
@@ -26,3 +26,7 @@
 	required = true
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
