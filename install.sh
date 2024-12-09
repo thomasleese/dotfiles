@@ -29,14 +29,6 @@ echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
 sudo chsh -s /usr/local/bin/fish $USER
 popd
 
-# Asdf
-pushd asdf
-rm -f ~/.asdfrc
-ln -s $(pwd)/asdfrc ~/.asdfrc
-asdf plugin add java
-asdf plugin add kotlin
-asdf plugin add nodejs
-asdf plugin add python
-asdf plugin add ruby
-asdf plugin add terraform
-popd
+# Mise
+mise use -g usage
+mise completion fish > ~/.config/fish/completions/mise.fish
