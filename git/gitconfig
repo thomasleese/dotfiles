@@ -6,6 +6,8 @@
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMZ2XQ7+iJAoknKEba43mKLxn4Jb8c9QHEg2Ac5TjMSF
 [pull]
 	ff = only
+[push]
+	autoSetupRemote = true
 [core]
 	excludesfile = ~/Developer/dotfiles/git/gitignore
 [fetch]
