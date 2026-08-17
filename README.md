@@ -2,6 +2,19 @@
 
 This repository contains configuration for the CLI tools that I use.
 
-## Installation
+It is designed to be used in parallel with my Ansible configuration held in
+the [machines repository][].
 
-Once cloned, to install the configuration run `install.sh`.
+[machines repository]: https://github.com/thomasleese/machines
+
+To install the configuration files, you can use the `stow` command:
+
+```shell
+stow -t $HOME fish git
+```
+
+## Dependencies
+
+- [Stow](https://www.gnu.org/software/stow/)
+- [Fish](https://fishshell.com/)
+- [Starship](https://starship.rs/)
