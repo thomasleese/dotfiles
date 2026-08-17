@@ -1,14 +1,7 @@
-# dotfiles
+# Dotfiles
 
-Here I store my dotfiles configuration.
+This repository contains configuration for the CLI tools that I use.
 
 ## Installation
 
-```sh
-$ brew install gh
-$ gh auth login
-$ cd ~/Developer
-$ gh repo clone dotfiles
-$ cd dotfiles
-$ ./install.sh
-```
+Once cloned, to install the configuration run `install.sh`.

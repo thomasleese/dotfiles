@@ -9,18 +9,18 @@ popd
 
 # Git
 pushd git
-rm -f ~/.gitconfig
+rm -f ~/.gitconfig ~/.gitignore
 ln -s $(pwd)/gitignore ~/.gitignore
 ln -s $(pwd)/gitconfig ~/.gitconfig
 popd
 
 # Fish
 pushd fish
-rm -rf ~/.config/fish
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+sudo chsh -s /opt/homebrew/bin/fish $USER
+rm -rf ~/.config/fish/conf.d
 mkdir -p ~/.config/fish
 ln -s $(pwd) ~/.config/fish/conf.d
-echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
-sudo chsh -s /usr/local/bin/fish $USER
 popd
 
 # Mise
