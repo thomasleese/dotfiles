@@ -10,6 +10,7 @@ popd
 # Git
 pushd git
 rm -f ~/.gitconfig
+ln -s $(pwd)/gitignore ~/.gitignore
 ln -s $(pwd)/gitconfig ~/.gitconfig
 popd
 

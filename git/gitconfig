@@ -9,7 +9,7 @@
 [push]
 	autoSetupRemote = true
 [core]
-	excludesfile = ~/Developer/dotfiles/git/gitignore
+	excludesfile = ~/.gitignore
 [fetch]
 	prune = true
 [commit]
